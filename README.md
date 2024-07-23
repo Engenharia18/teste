@@ -1,0 +1,2 @@
+## Postgres for Docker
+- sudo docker run --name <name-container> \\n    -e POSTGRES_PASSWORD= <password> \\n    -e POSTGRES_USER=<user> \\n    -e POSTGRES_DB=<name-db> \\n   p<port> \\n    -d postgres\n
